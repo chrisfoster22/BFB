@@ -1,0 +1,69 @@
+h2, h3 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-panel, .options-panel {
+    width: 300px;
+}
+
+.beaker {
+    background-image: url("images/beaker/Beaker_Low_Fill.png");
+    width: 200px;
+    height: 200px;
+    margin: 200px auto 30px;
+    background-size: cover;
+}
+
+.ingredients-container {
+    width: 40%;
+    height: 200px;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: space-between;
+}
+
+#ingredientsHeading {
+    border-bottom: 1px solid lightgrey;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    opacity: .2;
+    pointer-events: none;
+    transition: all .5s
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#dog {
+    background-image: url("images/recipient/Dog_Silhouette_Vector_SVG.svg");
+}
+
+#person {
+    background-image: url("images/recipient/Human_Female_Head_Silhouette_Vector_SVG.svg");
+}
